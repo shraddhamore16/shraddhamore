@@ -1,0 +1,104 @@
+<html>
+<head>
+<title> RegiForm</title>
+</head>
+<body>
+<form action="registrationform.html">
+<table border="1" align="center" width="400" height="600" bgcolor="#CCCCCC"  >
+<center><h2 >  STUDENT REGISTRATION FORM </h2></center>
+<tr>
+<th> FIRST NAME</th>
+<td><input type="text" name="firstn" >
+</tr>
+<tr>
+<th> MIDDLE NAME</th>
+<td><input type="text" name="middlen">
+</tr>
+<tr>
+<th> LAST NAME</th>
+<td><input type="text" name="lastn">
+</tr>
+<tr>
+<th>USERNAME</th>
+<td><input type="username"/></td>
+</tr>
+<tr>
+<th>PASSWORD</th>
+<td><input type="password"/></td>
+</tr>
+<tr>
+<th> MOBILE NUMBER</th>
+<td><input type="number"/>
+</td>
+</tr>
+<th>  EMAIL ID</th>
+<td><input type="email"/>
+</td>
+<tr>
+<th> ADDRESS</th>
+<td><textarea rows="6" cols="20"></textarea></td>
+<tr>
+<th>GENDER</th>
+<td> 
+<input type="radio" name="g"  value="m"/>Male
+<input type="radio" name="g"  value="f"/>Female
+</td>
+<tr>
+<th> DOB</th>
+<td><input type="date"/></td>
+</tr>
+<tr>
+<th>CITY</th>
+<td>
+<select name="city">
+<option value="city>
+<option value=""  selected="selected" disabled="disabled">select your city</option>
+<option value="1">Pune</option>
+<option value="2">Baramati</option>
+<option value="3">Mumbai</option>
+<option value="4">Latur</option>
+<option value="5">Solapur</option>
+<option value="6">Goa</option>
+<option value="7">Nagpur</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>  QUALIFICATION<br /><br /><br /></th>
+<td>
+<br/>
+<input type="checkbox" name="highschool" value="high school"/>
+High School(10th)<br>
+<input type="checkbox" name="higherschool" value="higher school"/>
+Higher School(12th)<br>
+<input type="checkbox" name="Graduation" value="graduation" />
+Graduation(bechlar)<br>
+<input type="checkbox" name="postGraduation" value="postgraduation" />
+Postgraduation(master)<br>
+<input type="checkbox" name="phd" value="phd" />
+Phd
+
+</td>
+<tr>
+<th>Courses<br />Appiled for</th>
+<td>
+<input type="radio" name="course bca" value="BCA">
+BCA
+<input type="radio" name="course bsc" value="BSC">
+B.SC
+<input type="radio" name="course bcom" value="BCOM">
+BCOM
+<input type="radio" name="course bba" value="BBA">
+BBA
+</td>
+</tr>
+</td>
+</tr>
+
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</table>
+</form>
+</body>
+</html>
